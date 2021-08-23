@@ -1,0 +1,40 @@
+.network, .channel, .controls, .slot {
+    display: flex;    
+    flex-flow: column;
+    border: 1px black solid;
+}
+
+.channel, .controls {
+    padding: 5px;
+}
+
+.network,.channel {
+    margin: 10px;
+}
+
+.channel-body, .network-controls {
+    display: flex;    
+    justify-content: space-around;
+}
+
+.channel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.network h1, .channel h2, .slot {
+    text-align: center;
+}
+
+.slots {
+    border: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.slot {
+    flex: 0 1 8%;
+}
